@@ -171,7 +171,7 @@ Table names and labels should always be singular (i.e. Incident - incident, Inci
 
 Table names should be written in snake case where each space in the name is replaced by the underscore character (i.e change_task)
 
-Custom tables will be prefixed with u_
+Custom tables within the Global scope will be prefixed with u_
 
 ### Fields
 
@@ -179,7 +179,7 @@ Field labels should be in sentence case where only the first word is capitalised
 
 Field names should be written in snake case similar to table names.
 
-Custom fields will be prefixed with u_
+Custom fields within the Global scope will be prefixed with u_
 
 ### UI Actions
 
