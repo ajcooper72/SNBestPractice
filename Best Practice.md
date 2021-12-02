@@ -98,16 +98,18 @@ You can also use parameters with messages on client scripts using the following 
     // results in the message...
     // Message with a parameter, and another one
 
-Alternatively, you can use the i18NV3 client API as follows;
-
-    var msg2 = nowapi.g_i18n.format("Message with a {p1}, and {p2}", 
-        { p1: "parameter", p2: "another one" } );
-
 ### Widgets
 
-Within widget HTML you can use the following format
+Within widget HTML you can use the following format.  This does not support parameters in messages, so if that is required you should generate the message in the client script.
 
     ${message_key}
+
+And from the client controller, the i18n library can be used using the following code;
+
+    function($scope, i18n) {
+        var msg = i18n.getMessage('Message with a {0}, and {1}')
+            .withValues(["parameter", "another one"]));
+    }
 
 ## Update Sets
 
