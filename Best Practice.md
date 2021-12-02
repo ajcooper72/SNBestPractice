@@ -140,8 +140,8 @@ Further information on batching can be found here: [Update set batching](https:/
 
 Design artifacts such as business rules, client scripts, widgets, script includes etc should be prefixed with CC to indicate that the element has been created by the CoE. Additionally the name should reflect the purpose of the artifact.
 
-    Business Rule - CCUpdateIncidentState
-    Client script - CCValidateUserInput
+    CCUpdateIncidentState
+    CCValidateUserInput
 
 **UI Policies** do not have a name so the description field should be used instead.
 
