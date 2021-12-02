@@ -42,7 +42,7 @@ and a Configuration as
 
 > A configuration is tailoring an instance using ServiceNow best practices and API to meet your requirements without making changes to code that is part of the baseline installation of an instance.
 
-ServiceNow's previous approach was a "modify a baseline script and you own it" attitude which was supported by a process of copy, deactivate and change the copy.  This allowed baseline artifacts to continue to be upgraded as the active flag is ignored during an upgrade.  The side-effect however meant that modified script/artifact could miss out on any new functionality added by ServiceNow as it is not flagged during the upgrade.
+ServiceNow's previous approach was a "modify a baseline script and you own it" attitude which was supported by a process of copy, deactivate and change the copy.  This allowed baseline artifacts to continue to be upgraded as the active flag is ignored during an upgrade.  The side-effect however meant that the modified script/artifact could miss out on any new functionality added by ServiceNow as it is not flagged during the upgrade.
 
 The current approach is as follows (taken from the Scripting Fundamentals training guide);
 
