@@ -134,7 +134,7 @@ Further information on batching can be found here: [Update set batching](https:/
 
 ## Naming Standards
 
-### Design Artificats
+### Design Artifacts
 
 Design artifacts such as business rules, client scripts, widgets, script includes etc should be prefixed with CC to indicate that the element has been created by the CoE. Additionally the name should reflect the purpose of the artifact.
 
